@@ -2,6 +2,7 @@ package com.example.sunsun1001.repfinder;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
+import java.utils.List;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
