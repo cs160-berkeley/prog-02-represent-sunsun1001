@@ -1,20 +1,38 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+
+Find your congressional representatives! Use either your zip code or current location and find out who you are voting for!!! Not every representative plays by the rules. 
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Sunny Singh ([sunny.singh.13@berkeley.edu](mailto:sunny.singh.13@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [RepFinder 2016] (https://www.youtube.com/watch?v=pnVv8szGPpQ)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/title.png" height="400" alt=“Title Phone”/>
+<img src = screenshot/repview.png height=“400” alt=“Congressional View”/>
+<img src = screenshot/detail.png height=“400” alt=“Detail Phone”/>
+<img src = screenshot/watchTitle.png height=“400” alt=“Watch Title”/>
+<img src = screenshot/watchElec.png height=“400” alt=“Watch Election 2012”/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* http://stackoverflow.com/questions/11050074/how-to-check-if-radiobutton-is-checked
+
+* http://stackoverflow.com/questions/9605459/android-why-must-use-getbasecontext-instead-of-this
+
+* http://stackoverflow.com/questions/3641304/get-latitude-and-longitude-using-zipcode
+
+* http://developer.android.com/training/wearables/ui/2d-picker.html
+
+* All APIs Used (SunLight, Google Location, etc.)
+
+* CS 160 TAs
+
+* Anyone else I forgot :)
+
+
