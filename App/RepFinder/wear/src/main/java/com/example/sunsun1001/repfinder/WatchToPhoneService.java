@@ -50,11 +50,6 @@ public class WatchToPhoneService extends Service implements GoogleApiClient.Conn
         mWatchApiClient.connect();
     }
 
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        mWatchApiClient.disconnect();
-    }
 
 
     @Override
@@ -74,7 +69,7 @@ public class WatchToPhoneService extends Service implements GoogleApiClient.Conn
                         // final String command = bundle.getString("command");
                         //final String data = bundle.getString("data");
                         Log.v("T", "Sending /command and data: ");
-                        sendMessage("/" + command, "92867");
+                        sendMessage("/" + command, data);
                         Log.v("T", "Sent message detailed with: ");
                         _this.stopSelf();
                     }
@@ -86,8 +81,9 @@ public class WatchToPhoneService extends Service implements GoogleApiClient.Conn
         // Which cat do we want to feed? Grab this info from INTENT
         // which was passed over when we called startService
         Bundle extras = intent.getExtras();
-        command = extras.getString("command");
 
+        command = extras.getString("command", "new");
+        data = extras.getString("data", "95023");
 
 //        // Send the message with the cat name
 //        new Thread(new Runnable() {
