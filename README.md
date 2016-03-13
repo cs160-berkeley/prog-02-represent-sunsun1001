@@ -14,10 +14,10 @@ See [RepFinder 2016] (https://www.youtube.com/watch?v=pnVv8szGPpQ)
 ## Screenshots
 
 <img src="screenshots/title.png" height="400" alt=“Title Phone”/>
-<img src = screenshot/repview.png height=“400” alt=“Congressional View”/>
-<img src = screenshot/detail.png height=“400” alt=“Detail Phone”/>
-<img src = screenshot/watchTitle.png height=“400” alt=“Watch Title”/>
-<img src = screenshot/watchElec.png height=“400” alt=“Watch Election 2012”/>
+<img src = screenshots/repview.png height=“400” alt=“Congressional View”/>
+<img src = screenshots/detail.png height=“400” alt=“Detail Phone”/>
+<img src = screenshots/watchTitle.png height=“400” alt=“Watch Title”/>
+<img src = screenshots/watchElec.png height=“400” alt=“Watch Election 2012”/>
 
 ## Acknowledgments
 
